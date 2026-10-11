@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node dependencies
+node_modules
+frontend/node_modules
+dist
+frontend/dist
+dist-ssr
+*.local
+
+# Environment variables & secrets (CRITICAL: Never commit secrets)
+.env
+.env.local
+.env.*.local
+*.env.local
+frontend/.env
+frontend/.env.local
+backend/supabase/.temp
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

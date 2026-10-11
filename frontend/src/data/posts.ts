@@ -1,0 +1,7 @@
+import type { Post } from '../types'
+
+export const posts: Post[] = [
+  { id: 'p1', author: { id: 'arjun-sinha', name: 'Arjun Sinha', initials: 'AS', avatar: 'from-cyan-400 to-blue-500', branch: 'Computer Science', year: '4th year' }, time: '28 min ago', content: 'We finally demoed our AI Study Assistant to a small group from CSE. The best feedback was not about the model — it was about making the revision flow feel calmer. That is the version we are building next.', tags: ['#BuildInPublic', '#AIforEducation'], likes: 84, comments: 16, shares: 5, liked: true },
+  { id: 'p2', author: { id: 'nisha-verma', name: 'Nisha Verma', initials: 'NV', avatar: 'from-rose-400 to-pink-500', branch: 'Information Technology', year: '3rd year' }, time: '2h ago', content: 'A quick reminder for anyone building a portfolio: show the thinking, not just the finished screen. Your constraints, wrong turns, and tiny decisions are what make the work feel real.', tags: ['#DesignNotes', '#Portfolio'], likes: 126, comments: 23, shares: 12 },
+  { id: 'p3', author: { id: 'rahul-sharma', name: 'Rahul Sharma', initials: 'RS', avatar: 'from-blue-500 to-indigo-600', branch: 'Computer Science', year: 'LNCT 2023' }, time: '5h ago', content: 'I am opening a few casual mentorship chats this month for students navigating their first developer role. No perfect resume needed — bring the question you are avoiding.', tags: ['#AlumniConnect', '#Mentorship'], likes: 197, comments: 41, shares: 28, saved: true },
+]

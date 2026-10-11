@@ -1,0 +1,8 @@
+import type { Conversation } from '../types'
+
+export const conversations: Conversation[] = [
+  { id: 'rahul', person: { id: 'rahul-sharma', name: 'Rahul Sharma', initials: 'RS', avatar: 'from-blue-500 to-indigo-600', role: 'Software Engineer', company: 'Google', online: true }, preview: 'Happy to look at the architecture!', time: '10:42 AM', unread: 2, messages: [{ id: '1', text: 'Hey Rahul! I am refining the Study Assistant and had a question about the API boundary.', at: '10:38 AM', mine: true }, { id: '2', text: 'Absolutely — what are you optimizing for right now?', at: '10:40 AM' }, { id: '3', text: 'Happy to look at the architecture!', at: '10:42 AM' }] },
+  { id: 'nisha', person: { id: 'nisha-verma', name: 'Nisha Verma', initials: 'NV', avatar: 'from-rose-400 to-pink-500', role: 'Product Designer', company: 'Student', online: true }, preview: 'The onboarding flow is looking sharp.', time: 'Yesterday', messages: [{ id: '1', text: 'The onboarding flow is looking sharp.', at: 'Yesterday' }] },
+  { id: 'project', person: { id: 'project-team', name: 'Event Hub Team', initials: 'EH', avatar: 'from-amber-400 to-orange-500', role: '6 members', company: 'Project group' }, preview: 'Aanya: I added the registration edge cases.', time: 'Mon', messages: [{ id: '1', text: 'Aanya: I added the registration edge cases.', at: 'Mon' }] },
+  { id: 'kavya', person: { id: 'kavya-jain', name: 'Kavya Jain', initials: 'KJ', avatar: 'from-emerald-400 to-teal-500', role: 'Full-stack Engineer', company: 'Student' }, preview: 'Want to join the product walkthrough?', time: 'Sun', messages: [{ id: '1', text: 'Want to join the product walkthrough?', at: 'Sun' }] },
+]

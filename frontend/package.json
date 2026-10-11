@@ -1,0 +1,37 @@
+{
+  "name": "lnct-connect",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "tsc -b",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "db:types": "node ../backend/scripts/generate-types.js"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "@supabase/supabase-js": "^2.117.3",
+    "@tailwindcss/vite": "latest",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "latest",
+    "gsap": "^3.15.0",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "tailwindcss": "latest",
+    "three": "^0.186.1",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "vitest": "^5.0.3"
+  }
+}
